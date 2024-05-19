@@ -1,0 +1,102 @@
+body {
+    font-family: Raleway;
+    font-weight: 300;
+}
+
+.header {
+    background-color: #f08317;
+    height: 60px;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    float: right;
+}
+
+a:hover {
+    color: #f7dfc7;
+}
+
+img {
+    top: 5px;
+    left: 8px;
+    height: 55px;
+    width: 50px;
+}
+
+.head {
+    height: 50px;
+    top: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.club-img {
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding-left: 10pz;
+}
+
+.club-detail {
+    margin-left: 20px;
+}
+#club {
+    height: 200px;
+    margin-left: 10%;
+    margin-right: 30%;
+    margin-top: 20px;
+    background-color: #fcf0f0;
+    display: flex;
+    flex-direction: row;
+}
+
+@keyframes move {
+    from {
+        margin-left: 10%;
+        margin-right: 30%;
+    } 
+    to {
+        margin-left: 20%;
+        margin-right: 20%;
+    }   
+}
+
+.club1 {
+    animation-name: move;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.club2 {
+    animation-name: move;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.club3 {
+    animation-name: move;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.club4 {
+    animation-name: move;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+.Contact {
+    height: 30px;
+    margin-top: 20px;
+    background-color: #f08317;
+}
