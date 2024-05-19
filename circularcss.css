@@ -1,0 +1,57 @@
+body {
+    font-family: Raleway;
+    font-weight: 300;
+}
+
+img {
+    top: 5px;
+    left: 8px;
+    height: 55px;
+    width: 50px;
+}
+
+.header {
+    background-color: #f08317;
+    height: 60px;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    float: right;
+}
+
+.circular-div {
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #f7dfc7;
+    box-shadow: 1px 1px 5px gray;
+    font-size: 20px;
+}
+
+a:hover {
+    color:#f7dfc7;
+}
+
+.circular-anchor {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.circular-anchor:hover {
+    color: gray;
+}
+
+.Contact {
+    height: 30px;
+    margin-top: 20px;
+    background-color: #f08317;
+}
